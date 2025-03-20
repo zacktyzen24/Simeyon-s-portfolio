@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: poppins;
+    box-sizing: border-box;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
+
+ul a:hover{
+    color: red;
+}
+ul a{
+    transition: 0.3s;
+}
+
+a{
+   text-decoration: none;
+   color: white;
+
+}
+
+ul li{
+    list-style: none;
+}
+
+.subscribe-btn{
+    padding: 8px 10px;
+    background-color: red;
+    border-radius:50px ;
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    padding-left: 40px;
+    
+}
+
+.main-text p{
+    padding-bottom: 10px;
+
+
+}
+.first-text{
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.name-text{
+    font-size: 150px;
+    font-weight: bold;
+
+}
+
+.third-text{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-top: -20px;
+}
+
+.meassage-box{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+  
+}
+
+.meassage-box > input{
+    border: none;
+    padding: 10px 8px;
+    width: 300px;
+    border-radius: 50px;
+    color: #171717;
+}
+
+.send-btn{
+    background-color: red;
+    padding: 8px 15px;
+    border-radius: 50px;
+}
+
+.first-page{
+    
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./WhatsApp\ Image\ 2025-03-16\ at\ 8.32.31\ PM.jpeg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+span{
+    color: red;
+}
+
+
+.second-page{
+    padding: 40px;
+    background-color: #171717;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.picture img{
+    width: 400px;
+    
+}
+
+.about-me p,h2{
+    padding-bottom: 10px;
+
+    
+}
+.about-me{
+    width: 50%;
+
+}
+.about-me p{
+    line-height: 2rem;
+}
+.column{
+    display: flex;
+    justify-content: center;
+}
+.abt-btn{
+    background-color: red;
+    border-radius: 50px;
+    max-width: 130px;
+    padding: 8px 15px;
+    text-align: center;
+    
+}
+
+.third-page{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+    
+
+}
+
+.service-box{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+
+    
+    
+}
+
+.box{
+    background-color: #171717;
+    border-radius: 40px;
+    
+    padding: 40px 40px;
+    text-align: center;
+    padding-top: 19px;
+    width: 20%;
+    height: 15%;
+    
+
+    
+}
+.first-p{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.second-p{
+    font-size: 13px;
+    font-weight: lighter;
+    padding: 20px 0px;
+}
+
+.btn {
+    background-color: red;
+    border-radius: 50px;
+    padding: 8px 10px;
+
+}
+.our-service h2{
+    justify-content: center;
+    font-size: 2rem;
+}
+
+footer{
+    
+    background-color: #171717;
+    text-align: center;
+
+}
+.hire-me-btn{
+    
+    background-color: red;
+    border-radius: 50px;
+    padding: 8px 10px;
+    max-width: 100px;
+    text-align: center;
+   
+
+}
+.help-me{
+    display: flex;
+    flex-direction: column;
+    background-color: #171717;
+    width: 100%;
+    height:300px ;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box img{
+    padding-bottom: 14px;
+    width: 70px;
+
+}
+
+.btn{
+    padding-top: 8px 10px;
+}
+.help-me p{
+    font-size: 30px;
+}
+
+
+
